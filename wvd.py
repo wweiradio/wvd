@@ -70,7 +70,6 @@ def read_config(filename='config.ini'):
      config.read(filename)
 
      sub = config.get('download','cookie') 
-     print(sub)
      if sub == '':
           sub = "_2A25z8DKDDeRhGedK7lYS9S3NzD2IHXVQhCNLrDV_PUNbm9AKLVXfkW9NIVt1oQaXS827f6hb8CnUZxyc95gyuxSI"
      

@@ -15,7 +15,7 @@ pip3 install -r requirements.txt
 
 # 食用
 
-1.设置cookie
+1.设置cookie, cookie 只需要 SUB值就好了。
 
 2.找到要下载的视频的URL
 
