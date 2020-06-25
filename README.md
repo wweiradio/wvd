@@ -1,5 +1,7 @@
-# getWeiboVideo
+# wvd 
+
 一键非自动下载微博视频
+
 # 依赖
 python 3.7.2
 
@@ -21,9 +23,21 @@ pip3 install -r requirements.txt
 
 4.执行脚本
 ```
-python3 getWeiboVideo.py
+Usage:
+  wvd.py  <url> <file_name> 
+  wvd.py  -c  
+  wvd.py --version
+  wvd.py (-h | --help)
+
+Options:
+  -h --help     Show this screen.
+  --version     Show version.
+  -c            generate config file 
+
 ```
 
 ## 说明
 
-前脚写了抖音的无水印视频后，赶着热度看了下weibo的，还行，简单写了下小demo，需要一键脚本，自动命令，网页接口之类的，根据这个小demo自己分析好了思路写就行，拒绝伸手党。
+感谢leafrainy的demo
+
+
