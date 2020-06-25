@@ -17,11 +17,14 @@ pip3 install -r requirements.txt
 
 1.设置cookie
 
-2.设置你要下载的weibourl
+2.找到要下载的视频的URL
 
 3.设置你要下载存为的文件名字
 
 4.执行脚本
+
+python wvd.py http://xxx/xx/  little_match_girl.mp4 
+
 ```
 Usage:
   wvd.py  <url> <file_name> 
@@ -36,8 +39,11 @@ Options:
 
 ```
 
+
+
 ## 说明
 
 感谢leafrainy的demo
+
 
 
